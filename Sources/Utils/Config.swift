@@ -73,9 +73,9 @@ public struct Config {
       public static var backgroundColor: UIColor = UIColor.white
     }
 
-    struct Dimension {
-      static let columnCount: CGFloat = 3
-      static let cellSpacing: CGFloat = 2
+    public struct Dimension {
+      public static var columnCount: CGFloat = 4
+      public static var cellSpacing: CGFloat = 2
     }
   }
 
