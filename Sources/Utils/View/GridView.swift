@@ -73,7 +73,7 @@ class GridView: UIView {
     bottomBlurView.g_pinEdges()
 
     closeButton.g_pin(on: .top)
-    closeButton.g_pin(on: .left)
+    closeButton.g_pin(on: .right)
     closeButton.g_pin(size: CGSize(width: 40, height: 40))
 
     arrowButton.g_pinCenter()
